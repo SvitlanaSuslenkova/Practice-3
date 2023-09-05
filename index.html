@@ -16,13 +16,16 @@
   body {
 background-color: hsl(212, 45%, 89%);
 font-family: 'Outfit', 'Times New Roman', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 }
   
  .container {
 width: 320px;
 height: 497px;
-transform: translate(0%,50%);
-margin: auto;
 border-radius: 18px;
 background-color: hsl(0, 0%, 100%);
 }
@@ -50,8 +53,8 @@ h6 {
   letter-spacing: 0.5px;
 }
 
-    .attribution { font-size: 11px; text-align: center;  position: fixed;
-  bottom:0;}
+    .attribution { font-size: 11px; text-align: center;  position: relative;
+  bottom:-30px;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
